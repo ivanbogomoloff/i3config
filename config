@@ -144,7 +144,7 @@ bindsym Escape mode "default"
 }
 
 bindsym $mod+r mode "resize"
-
+bindsym Home exec pm-suspend
 bindsym Print exec scrot -e 'mv $f /home/ivanb/Изображения/Screenshots' --release
 
 #exec setxkbmap -layout 'us,ru' -variant 'winkeys' -option 'grp:ctrl_shift_toggle' &
@@ -158,8 +158,8 @@ exec chromium-browser
 
 bar {
 	position top
-	status_command i3status -c ~/.i3status.conf
-	
+	#status_command i3status -c ~/.i3status.conf
+	status_command /home/ivanb/i3script.sh
 	#colors {
 	#	background #600477
 	#}
