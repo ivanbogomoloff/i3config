@@ -150,7 +150,8 @@ bindsym Print exec scrot -e 'mv $f /home/ivanb/Изображения/Screenshot
 #exec setxkbmap -layout 'us,ru' -variant 'winkeys' -option 'grp:ctrl_shift_toggle' &
 
 exec setxkbmap -layout 'us,ru' -option "grp:caps_toggle,grp_led:scroll,compose:ralt"
-exec --no-startup-id nitrogen --restore
+#exec --no-startup-id nitrogen --restore &
+feh --bg-scale /home/ivanb/Изображения/NitrogenWallpapers/7024573-space-stars-road.jpg
 exec chromium-browser
 
 # Start i3bar to display a workspace bar (plus the system information i3status
