@@ -166,3 +166,4 @@ exec setxkbmap -layout 'us,ru' -option "grp:caps_toggle,grp_led:scroll,compose:r
 exec feh --bg-scale /home/ivanb/Изображения/NitrogenWallpapers/7024573-space-stars-road.jpg
 exec chromium-browser
 exec nautilus
+assign [class="Firefox"] 5
