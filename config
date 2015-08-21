@@ -167,3 +167,4 @@ exec feh --bg-scale /home/ivanb/Изображения/NitrogenWallpapers/702457
 exec chromium-browser
 exec nautilus
 assign [class="Firefox"] 5
+assign [class="Google"] 5
